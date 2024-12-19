@@ -18,22 +18,22 @@ division(number1,number2);
 void add(int number1,int number2,int add3){
 int add_result;
 add_result=number1+number2+add3;
-printf("Addition of numbers is %d",add_result);
+printf("Addition of Two number is %d\n",add_result);
 }
 void subraction(int number1,int number2){
 int result=0;
 result=number1-number2;
-printf("Subraction of Two numbers is %d",result);
+printf("Subraction of Two numbers is %d\n",result);
 }
 
 void multiply(int number1,int number2, int number3){
 int result=0;
 result=number1*number2;
-printf("Multiplication of Two numbers is %d",result);
+printf("Multiplication of Two numbers is %d\n",result);
 }
 
 void division(int number1,int number2){
 int result=0;
 result=number1/number2;
-printf("Division of Two numbers is %d",result);
+printf("Division of Two numbers is %d\n",result);
 }
